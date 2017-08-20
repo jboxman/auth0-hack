@@ -48,7 +48,7 @@ const page = `
   <h2>GET /explode?id=[id]</h2>
   <p>Takes an id in the query string. Returns the original URL.</p>
   <h2>POST /shrink?url=[url]</h2>
-  <p>Takes a URL in the query string. Returns an base36 encoded representation of the URL. The post body is ignored.</p>
+  <p>Takes a URL in the query string. Returns a base36 encoded representation of the URL. The post body is ignored.</p>
   <h2>GET /stats</h2>
   <p>Returns the number of URLs saved in the store in a JSON document.</p>
   </body>
